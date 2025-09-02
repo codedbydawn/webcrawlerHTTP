@@ -6,7 +6,7 @@ function printReport(pagesVisited) {
         const hits = sortedPage[1]
         console.log(`${url} - ${hits} hits`)
     }
-    console.log("================end report================")
+    console.log("=================end report=================")
 }
 function sortPages(pagesVisited) {
     const pagesVisitedArr = Object.entries(pagesVisited)
